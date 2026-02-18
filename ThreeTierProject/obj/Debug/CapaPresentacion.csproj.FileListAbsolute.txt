@@ -1,0 +1,16 @@
+C:\Users\USUARIO\source\repos\ThreeTierProject\ThreeTierProject\bin\Debug\ThreeTierProject.exe.config
+C:\Users\USUARIO\source\repos\ThreeTierProject\ThreeTierProject\bin\Debug\ThreeTierProject.exe
+C:\Users\USUARIO\source\repos\ThreeTierProject\ThreeTierProject\bin\Debug\ThreeTierProject.pdb
+C:\Users\USUARIO\source\repos\ThreeTierProject\ThreeTierProject\bin\Debug\CapaNegocio.dll
+C:\Users\USUARIO\source\repos\ThreeTierProject\ThreeTierProject\bin\Debug\CapaNegocio.pdb
+C:\Users\USUARIO\source\repos\ThreeTierProject\ThreeTierProject\obj\Debug\CapaPresentacion.csproj.AssemblyReference.cache
+C:\Users\USUARIO\source\repos\ThreeTierProject\ThreeTierProject\obj\Debug\ThreeTierProject.Properties.Resources.resources
+C:\Users\USUARIO\source\repos\ThreeTierProject\ThreeTierProject\obj\Debug\CapaPresentacion.csproj.GenerateResource.cache
+C:\Users\USUARIO\source\repos\ThreeTierProject\ThreeTierProject\obj\Debug\CapaPresentacion.csproj.CoreCompileInputs.cache
+C:\Users\USUARIO\source\repos\ThreeTierProject\ThreeTierProject\obj\Debug\CapaPres.61CA7C38.Up2Date
+C:\Users\USUARIO\source\repos\ThreeTierProject\ThreeTierProject\obj\Debug\ThreeTierProject.exe
+C:\Users\USUARIO\source\repos\ThreeTierProject\ThreeTierProject\obj\Debug\ThreeTierProject.pdb
+C:\Users\USUARIO\source\repos\ThreeTierProject\ThreeTierProject\obj\Debug\ThreeTierProject.exe.config
+C:\Users\USUARIO\source\repos\ThreeTierProject\ThreeTierProject\obj\Debug\CapaPresentacion.Form1.resources
+C:\Users\USUARIO\source\repos\ThreeTierProject\ThreeTierProject\bin\Debug\CapaDatos.dll
+C:\Users\USUARIO\source\repos\ThreeTierProject\ThreeTierProject\bin\Debug\CapaDatos.pdb

@@ -3,9 +3,11 @@ CREATE DATABASE BD_TEST
 ----------------------------------------------------
 
 Table Creation
+
 CREATE TABLE USUARIO ( id int IDENTITY(1,1) PRIMARY KEY NOT NULL, usuario varchar(50) NOT NULL, contrasena varchar(50) NOT NULL, intentos int NOT NULL, nivelSeg decimal(18,0) NOT NULL, fechaReg date );
 
 Store Procedures Creation
+
 SP_INSERTAR_USUARIO
 CREATE PROCEDURE SP_INSERTAR_USUARIO @usuario varchar(50) ,@contrasena varchar(250) ,@intentos int ,@nivelSeg decimal(18,0) ,@fechaReg date AS BEGIN SET NOCOUNT ON; INSERT INTO [dbo].[USUARIO] ([usuario] ,[contrasena] ,[intentos] ,[nivelSeg] ,[fechaReg]) VALUES (@usuario ,@contrasena ,@intentos ,@nivelSeg ,@fechaReg) END
 
@@ -24,9 +26,11 @@ CREATE PROCEDURE SP_SELECCIONAR_ALL_USUARIO AS SELECT * FROM USUARIO
 ----------------------------------------------------
 
 Table Creation
+
 CREATE TABLE PRODUCTO ( Id INT PRIMARY KEY IDENTITY(1,1), nombre VARCHAR(100) NOT NULL, cantidad INT NOT NULL );
 
-Store Procedures Creation 
+Store Procedures Creation
+
 SP_INSERTAR_PRODUCTO
 CREATE PROCEDURE SP_INSERTAR_PRODUCTO @nombre VARCHAR(100), @cantidad INT AS BEGIN INSERT INTO PRODUCTO (nombre, cantidad) VALUES (@nombre, @cantidad); END
 

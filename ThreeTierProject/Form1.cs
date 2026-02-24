@@ -19,6 +19,7 @@ namespace CapaPresentacion
         public Form1()
         {
             InitializeComponent();
+            ViewAllUsuario();
         }
         private void ViewAllUsuario()
         {
@@ -113,7 +114,7 @@ namespace CapaPresentacion
                 ViewAllUsuario();
             }
             else
-                MessageBox.Show("Debe seleccionar un resgistro en el DataGridView");
+                MessageBox.Show("Debe seleccionar un registro en el DataGridView");
         }
 
         private void btnEditar_Click(object sender, EventArgs e)
@@ -129,12 +130,13 @@ namespace CapaPresentacion
                 id = Convert.ToInt32(dataGridView1.CurrentRow.Cells["Id"].Value);
             }
             else
-                MessageBox.Show("Debe seleccionar un resgistro en el DataGridView");
+                MessageBox.Show("Debe seleccionar un registro en el DataGridView");
         }
 
         private void Form1_Load(object sender, EventArgs e)
         {
             ViewAllUsuario();
         }
+
     }
 }

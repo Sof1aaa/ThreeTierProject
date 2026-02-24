@@ -13,7 +13,7 @@ namespace CapaDatos
         /// <summary>
         /// Cadena de conexión para el acceso a la base de datos SQL Server
         /// </summary>
-        private SqlConnection Conexion = new SqlConnection("Data Source=.;Initial Catalog=BD_TEST;Integrated Security=True;Encrypt=False;");
+        private SqlConnection Conexion = new SqlConnection("Data Source=.\\SQLEXPRESS;Initial Catalog=BD_TEST;Integrated Security=True;Encrypt=False;");
 
         /// <summary>
         /// Abrir la conexión hacia la base de datos
